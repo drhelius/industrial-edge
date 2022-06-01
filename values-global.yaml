@@ -8,20 +8,20 @@ global:
 
   git:
     provider: github.com
-    account: PLAINTEXT
-    username: PLAINTEXT
-    email: EMAIL@EXAMPLE.COM
+    account: drhelius
+    username: drhelius
+    email: isanchez@redhat.com
     dev_revision: main
 
   quay:
     provider: quay.io
-    account: PLAINTEXT
+    account: isanchez
 
   datacenter:
-    clustername: PLAINTEXT
-    domain: PLAINTEXT
+    clustername: isanchez
+    domain: sandbox582.opentlc.com
 
   edge:
-    clustername: PLAINTEXT
-    domain: PLAINTEXT
+    clustername: isanchez
+    domain: sandbox582.opentlc.com
 
