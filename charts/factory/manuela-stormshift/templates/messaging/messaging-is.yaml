@@ -14,3 +14,10 @@ spec:
     importPolicy: {}
     referencePolicy:
       type: Local
+  - name: 0.3.2-1
+    from:
+      kind: DockerImage
+      name: quay.io/isanchez/iot-consumer:0.3.2-1
+    importPolicy: {}
+    referencePolicy:
+      type: Local
